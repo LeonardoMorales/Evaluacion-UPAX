@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/moviesFragment">
+
+    <fragment
+        android:id="@+id/moviesFragment"
+        android:name="dev.leonardom.evaluacionupax.feature_movies.presentation.MoviesFragment"
+        android:label="Movies" />
+
+    <fragment
+        android:id="@+id/photosFragment"
+        android:name="dev.leonardom.evaluacionupax.feature_photos.presentation.PhotosFragment"
+        android:label="Photos" />
+
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="dev.leonardom.evaluacionupax.feature_location.presentation.LocationFragment"
+        android:label="Location" />
+
+    <dialog
+        android:id="@+id/errorDialog"
+        android:name="dev.leonardom.evaluacionupax.core.presentation.dialog.ErrorDialog"
+        android:label="ErrorDialog" >
+
+        <argument
+            android:name="title"
+            app:argType="string" />
+
+        <argument
+            android:name="description"
+            app:argType="string" />
+
+    </dialog>
+
+    <action
+        android:id="@+id/action_global_errorDialog"
+        app:destination="@id/errorDialog"/>
+
+</navigation>

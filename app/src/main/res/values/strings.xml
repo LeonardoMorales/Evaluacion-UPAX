@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">Evaluacion UPAX</string>
+    <string name="movie_poster_description">Movie Poster</string>
+    <string name="ok_button">Aceptar</string>
+    <string name="notification_title">Ubicación actualizada</string>
+    <string name="notification_description">Su ubicación ha sido actualizada</string>
+    <string name="button_camera">CÁMARA</string>
+    <string name="button_gallery">GALERÍA</string>
+    <string name="photo_preview">Photo Preview</string>
+    <string name="permission_required">Es necesario aceptar los permisos</string>
+    <string name="permission_granted">Permiso Aceptado</string>
+    <string name="button_save_image">Guardar Imagen</string>
+    <string name="error_no_image_selected">Seleccione una imagen</string>
+    <string name="last_location_title">Ubicación más reciente:</string>
 </resources>

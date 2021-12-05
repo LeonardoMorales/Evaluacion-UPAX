@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:elevation="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_photoPreview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/large_default_padding"
+        android:layout_marginEnd="@dimen/large_default_padding"
+        android:layout_marginTop="@dimen/medium_default_padding"
+        android:layout_marginBottom="@dimen/medium_default_padding"
+        android:contentDescription="@string/photo_preview"
+        app:layout_constraintBottom_toTopOf="@+id/button_saveImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_gallery" />
+
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_camera"
+        android:layout_marginStart="@dimen/medium_default_padding"
+        android:layout_marginTop="@dimen/medium_default_padding"
+        android:layout_marginEnd="@dimen/small_default_padding"
+        app:layout_constraintEnd_toStartOf="@+id/button_gallery"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_gallery"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/button_gallery"
+        android:layout_marginStart="@dimen/small_default_padding"
+        android:layout_marginTop="@dimen/medium_default_padding"
+        android:layout_marginEnd="@dimen/medium_default_padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_camera"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_saveImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save_image"
+        android:layout_marginStart="@dimen/medium_default_padding"
+        android:layout_marginEnd="@dimen/medium_default_padding"
+        android:layout_marginBottom="@dimen/medium_default_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
