@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "248802290360",
+    "project_id": "evaluacion-upax",
+    "storage_bucket": "evaluacion-upax.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248802290360:android:25500e602161ff207a624d",
+        "android_client_info": {
+          "package_name": "dev.leonardom.evaluacionupax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248802290360-14e4si3l1afu2fbb74slrlniuegebjrr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA384AHUIQKY2XzRnRray-NH197QHpLQdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248802290360-14e4si3l1afu2fbb74slrlniuegebjrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
